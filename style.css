@@ -1,16 +1,17 @@
-body{
-    
-     background: url("img/img12.png")  no-repeat center center fixed;
-     -webkit-background-size: cover; 
+body {
+
+    background: url("img/img12.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
     background-size: cover;
-     margin: 0;
+    margin: 0;
     padding: 0;
     background-color: black;
 }
-.header img{
+
+.header img {
     height: 150px;
     width: 150px;;
-	
+
 }
 
 ul.submenu {
@@ -26,11 +27,13 @@ ul.submenu {
     background: black;
     z-index: 10000;
 }
+
 ul.submenu > li {
     display: block;
     left: -40px;
 
 }
+
 ul.submenu > li > a {
     display: block;
     padding: 10px;
@@ -38,12 +41,15 @@ ul.submenu > li > a {
     background-color: none;
     text-decoration: none;
 }
+
 ul.submenu > li > a:hover {
     text-decoration: underline;
 }
+
 ul.menu > li:hover > ul.submenu {
     display: block;
 }
+
 ul.menu > li > a {
     position: inherit;
     display: block;
@@ -53,89 +59,100 @@ ul.menu > li > a {
     text-decoration: none;
     float: center;
 }
+
 ul.menu > li {
     float: center;
     position: relative;
 }
-.menu ul li:hover{
+
+.menu ul li:hover {
     border-bottom: 2px solid yellow;
 
 }
-.menu ul li{
+
+.menu ul li {
     position: relative;
-	text-decoration :none;
-    width:150px;
+    text-decoration: none;
+    width: 150px;
     cursor: pointer;
     list-style: none;
-    display:inline-block;
+    display: inline-block;
     text-align: center;
 }
 
-.header{
+.header {
     position: relative;
-    margin-top:20px;
-    width:100%;
-    height:150px;
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
     background-color: black;
     opacity: 0.7;
 }
 
 
-.content ul li{
+.content ul li {
     height: 800px;
-    font-size:10pt;
-    color:yellow;
-    
-}
-.content p{
-    font-size:14pt;
-    color:yellow;
-    
+    font-size: 10pt;
+    color: yellow;
 
 }
-.container p{
-    font-size:16pt;
-    color:yellow;
-    
+
+.content p {
+    font-size: 14pt;
+    color: yellow;
+
+
 }
-.container ul{
+
+.container p {
+    font-size: 16pt;
+    color: yellow;
+
+}
+
+.container ul {
     font-size: 16pt;
     color: yellow;
     margin-left: 200px;
 }
-.container form{
+
+.container form {
     padding: 5px;
-    margin-left:2%;
-    float:left;
+    margin-left: 2%;
+    float: left;
 
 }
+
 .content {
     float: left;
     margin-top: 20px;
     width: 960px;
     height: 650px;
 }
-.sidebar{
+
+.sidebar {
     position: inherit;
-    width:22%;
-    height:600px; 
-   background-color: black;
+    width: 22%;
+    height: 600px;
+    background-color: black;
     opacity: 0.7;
     float: right;
     text-decoration-color: yellow;
     text-align: center;
 }
+
 .sb-h1 {
-        text-transform: uppercase;
+    text-transform: uppercase;
     display: inline-block;
     color: yellow;
     width: 50%;
     height: 30px;
     background-color: black;
     text-align: center;
-       font-weight: 300;
+    font-weight: 300;
     line-height: 30px;
 }
+
 .sidebar ul {
     margin: 0 auto;
     list-style: none;
@@ -143,140 +160,163 @@ ul.menu > li {
     width: 100%;
     padding: 0;
 }
+
 .sidebar ul li {
     height: 40px;
     width: 100%;
     cursor: pointer;
     line-height: 40px;
 }
-.sidebar ul li:first-child { margin-top: 10px; }
+
+.sidebar ul li:first-child {
+    margin-top: 10px;
+}
+
 .sidebar ul li a {
     color: yellow;
     font-size: 1.2em;
 }
 
-.sidebar ul li:hover { border-left: 6px solid rgb(255,230,0); }
-.sidebar ul li a:hover { color: rgb(255,230,0); }
+.sidebar ul li:hover {
+    border-left: 6px solid rgb(255, 230, 0);
+}
 
-.Map{
+.sidebar ul li a:hover {
+    color: rgb(255, 230, 0);
+}
+
+.Map {
     border-left: 0px;
     float: right;
 
 }
-.footer{
+
+.footer {
     display: block;
     float: left;
     margin: 20px auto;
     width: 500px;
     height: 150px;
-  
+
     padding: 10px;
     clear: both;
-  
+
 
 }
+
 .footer ul {
     display: block;
     list-style: none;
 }
 
-.menu ul li a{
+.menu ul li a {
     z-index: 6;
-	text-decoration: none; 
-	color:yellow;
+    text-decoration: none;
+    color: yellow;
 }
 
- 
- .viewport{
-   z-index: 8; 
-width: 73%; 
-height: 290px; 
-overflow: hidden; 
-margin: 100 325 7px; 
 
-position: relative; 
+.viewport {
+    z-index: 8;
+    width: 73%;
+    height: 290px;
+    overflow: hidden;
+    margin: 100 325 7px;
+
+    position: relative;
 }
 
-.slidewrapper{
+.slidewrapper {
     position: absolute;
     left: 0;
     top: 0;
     height: 100px;
     margin: 0;
-    padding: 0;    
-}
-.slide{
-   list-style-type: none; 
-float: left; 
-width: 700px; 
-height: 290px; 
-margin: 0;
     padding: 0;
 }
-#prev_slide,#next_slide{
+
+.slide {
+    list-style-type: none;
+    float: left;
+    width: 700px;
+    height: 290px;
+    margin: 0;
+    padding: 0;
+}
+
+#prev_slide, #next_slide {
     position: absolute;
-    top: 95%; 
+    top: 95%;
     color: #fff;
 }
-#next_slide{
 
-     left: 345px;   
-}
-#prev_slide{
-     left: 325px;   
+#next_slide {
+
+    left: 345px;
 }
 
-.header img{
+#prev_slide {
+    left: 325px;
+}
+
+.header img {
     height: 150px;
     width: 150px;;
-    
+
 }
-.menu{
-    height:5%;
-    
-    
+
+.menu {
+    height: 5%;
+
+
     background-color: none;
     margin-top: 0%;
     margin-left: 10%;
 
 }
+
 #modal_form {
-    width: 300px; 
-    height: 170px; 
+    width: 300px;
+    height: 170px;
     border-radius: 5px;
     border: 3px #000 solid;
     background: #fff;
-    position: fixed; 
-    top: 45%; 
-    left: 50%; 
+    position: fixed;
+    top: 45%;
+    left: 50%;
     margin-top: -150px;
-    margin-left: -150px; 
-    display: none; 
-    opacity: 0; 
-    z-index: 10000; 
-    padding: 20px ;
+    margin-left: -150px;
+    display: none;
+    opacity: 0;
+    z-index: 10000;
+    padding: 20px;
     background: black;
 }
-#modal_form h3{
+
+#modal_form h3 {
     color: yellow;
     text-align: center;
     text-decoration: underline;
 }
-#modal_form p{
+
+#modal_form p {
     text-align: center;
     font-family: Arial, serif;
     font-weight: bold;
-    color:yellow;
+    color: yellow;
 }
-#modal_form span{
+
+#modal_form span {
     color: white;
     text-align: center;
     background: red;
 }
-#modal_form input[type="submit"]{
+
+#modal_form input[type="submit"] {
     background: yellow;
-    color:black;
+    color: black;
 }
+
 #modal_form #modal_close {
     width: 21px;
     height: 21px;
@@ -288,88 +328,97 @@ margin: 0;
 }
 
 #overlay {
-    z-index:0999; 
-    position:fixed; 
-    background-color:#000;
-    opacity:0.8; 
-    -moz-opacity:0.8; 
-    filter:alpha(opacity=80);
-    width:100%; 
-    height:100%; 
-    top:0; 
-    left:0;
-    cursor:pointer;
-    display:none; 
+    z-index: 0999;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
 }
 
-.b-container{
+.b-container {
     position: absolute;
- top:20;
- right:0;
+    top: 20;
+    right: 0;
 
-    width:150px;
-    height:150px;
-   
-    margin-left: :0;
-   
-    font-size:30px;
+    width: 150px;
+    height: 150px;
+
+    margin-left:: 0;
+
+    font-size: 30px;
     color: #fff;
 }
+
 .news {
     float: left;
     width: 700px;
     height: 300px;
     background: none;
 }
+
 .news ul {
     margin-top: 30px;
     list-style: none;
 }
-.news ul li{
+
+.news ul li {
     display: block;
     color: white;
     height: 140px;
     width: 93%;
     margin-bottom: 20px;
-    
+
 
 }
 
-.news ul li a{
+.news ul li a {
     color: yellow;
-  
+
 }
+
 .news ul li h2:hover {
     opacity: .8;
 }
+
 .news-img {
     width: 128px;
     height: 128px;
     float: left;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 1%;
-    margin-left: 1%; 
+    margin-left: 1%;
 }
+
 .news-content {
     float: left;
     margin-left: 20px;
     width: 75%;
     height: 128px;
 }
+
 .news-content h2 {
     text-transform: uppercase;
-    color: rgb(249,225,9);
+    color: rgb(249, 225, 9);
 }
 
 .news-view {
     width: 100%;
     height: 300px;
 }
+
 .news-view h1 {
     font-size: 30px;
-    color: rgb(249,225,9);
+    color: rgb(249, 225, 9);
     text-align: center;
 }
+
 .news-view-image {
     margin-left: 2%;
     max-width: 220px;
@@ -380,20 +429,20 @@ margin: 0;
 
 .news-text {
     font-size: 15px;
-    text-indent: 5%; 
-    text-align: justify; 
+    text-indent: 5%;
+    text-align: justify;
     margin-left: 1%;
 }
 
 .news-view hr {
     background: none;
-    border: 1px dashed rgb(0,0,0);
+    border: 1px dashed rgb(0, 0, 0);
     margin-left: 3%;
 }
 
 
 .profile-div {
-   float: left;
+    float: left;
     margin-top: 20px auto;
     width: 960px;
     height: 650px;
@@ -405,36 +454,42 @@ margin: 0;
     float: left;
     margin: 60px;
 }
+
 .usr-photo {
     width: 200px;
     height: 200px;
-    border: 2px solid rgb(249,225,9);
+    border: 2px solid rgb(249, 225, 9);
 }
+
 .usr-info {
     width: 600px;
     height: 400px;
     float: left;
     margin-top: 40px;
 }
+
 .usr-info h3 {
 
     padding-left: 5%;
     text-transform: uppercase;
     color: black;
-    background: rgb(249,225,9);
+    background: rgb(249, 225, 9);
 }
-.usr-instr{
-    text-align:left;
-    
-     padding-left: 5%;
+
+.usr-instr {
+    text-align: left;
+
+    padding-left: 5%;
     text-transform: uppercase;
     color: black;
-    background: rgb(249,225,9);
+    background: rgb(249, 225, 9);
 }
+
 .ul-usrinfo {
     list-style: none;
     padding: 5;
 }
+
 .ul-usrinfo li {
     padding-bottom: 3%;
     text-align: left;
@@ -442,26 +497,29 @@ margin: 0;
     height: 30px;
     line-height: 30px;
     margin-bottom: 20px;
-    border-bottom: 2px dashed rgb(249,225,9);
+    border-bottom: 2px dashed rgb(249, 225, 9);
 }
+
 .usr-you {
     color: orange;
     font-weight: bold;
 }
+
 .edit-profile-btn {
     width: 200px;
     height: 40px;
-    background: rgb(249,225,9);
+    background: rgb(249, 225, 9);
     text-transform: uppercase;
     border: dashed 2px;
     margin: 5% 1%;
     font-weight: bold;
     cursor: pointer;
 }
+
 .save-profile-btn {
     width: 200px;
     height: 40px;
-    background: rgb(249,225,9);
+    background: rgb(249, 225, 9);
     text-transform: uppercase;
     border: dashed 2px;
     margin: 8% 0%;
@@ -473,49 +531,56 @@ margin: 0;
 .authorization input:hover {
     background: #00b4eb;
 }
+
 .authorization input:focus {
     outline: none;
 }
+
 .authorization a {
     color: black;
 }
 
 #contact-wrapper {
-    width:630px;
-   
+    width: 630px;
+
     margin-left: 30%;
-    padding:20px;
+    padding: 20px;
 }
+
 #contact-wrapper div {
-    clear:both;
-    margin:1em 0;
+    clear: both;
+    margin: 1em 0;
 }
+
 #contact-wrapper label {
-    display:block;
-    float:none;
-    font-size:16px;
-    width:auto;
+    display: block;
+    float: none;
+    font-size: 16px;
+    width: auto;
 }
+
 form#contactform input {
-    border-color:#B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
-    border-style:solid;
-    border-width:1px;
-    padding:5px;
-    font-size:16px;
-    color:#333;
+    border-color: #B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    font-size: 16px;
+    color: #333;
 }
+
 form#contactform textarea {
-    font-family:Arial, Tahoma, Helvetica, sans-serif;
-    font-size:100%;
-    padding:0.6em 0.5em 0.7em;
-    border-color:#B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
-    border-style:solid;
-    border-width:1px;
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+    font-size: 100%;
+    padding: 0.6em 0.5em 0.7em;
+    border-color: #B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+    border-style: solid;
+    border-width: 1px;
 }
-#contact-wrapper p{
+
+#contact-wrapper p {
     text-align: left;
-   
-    color:yellow;
+
+    color: yellow;
     font-size: 16pt;
 }
 
@@ -523,6 +588,7 @@ form#contactform textarea {
     width: 960px;
     margin: 20px auto;
 }
+
 .admin-operations a {
     color: yellow;
 }
@@ -530,7 +596,7 @@ form#contactform textarea {
 .user-table td {
     border: 1px solid yellow;
     padding: 5px;
-    border-spacing:0;
+    border-spacing: 0;
 }
 
 .user-table td a {
@@ -566,12 +632,13 @@ form#contactform textarea {
 .post-form input {
     display: block;
     margin: 20px;
-    width:200px;
+    width: 200px;
 }
 
 .post-form input:focused {
     outline: none;
 }
+
 textarea:focused {
     outline: none;
 }
@@ -579,6 +646,7 @@ textarea:focused {
 .post-form input[type="text"] {
     border: 1px solid black;
 }
+
 .post-form input[type="submit"] {
     background: black;
     border: none;
@@ -633,7 +701,7 @@ textarea:focused {
 }
 
 .usr-edit-form input[type="submit"] {
-    background:black;
+    background: black;
     border: none;
     color: white;
     text-transform: uppercase;

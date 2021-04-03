@@ -7,19 +7,19 @@
 </head>
 
 
-   
+
 
 <body>
 
 
-  <?php 
+  <?php
   require ('header.php');
   ?>
   <?php require('menu.php')
  ?>
-       
-    
- <?php  
+
+
+ <?php
 $cat = $_GET['cat'];
 require_once("bd.php");
 
@@ -35,7 +35,7 @@ while ($myrow = mysqli_fetch_array ($result,MYSQLI_ASSOC )){
 
   <div class="infoPhoto">
     <div class="photo">
-      <img src="<?php echo $photo ?>">  
+      <img src="<?php echo $photo ?>">
     </div>
     <div class="information">
       описание: <?php echo $info;?>
@@ -45,12 +45,12 @@ while ($myrow = mysqli_fetch_array ($result,MYSQLI_ASSOC )){
 
 
 
-<?php 
+<?php
 }
 ?>
 
 
-<?php 
+<?php
   require ('footer.php');
   ?>
   </body>
